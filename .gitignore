@@ -1,0 +1,33 @@
+# Python Virtual Environments
+.env
+.venv
+env/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated Model Artifacts
+# These directories are created by the pipeline scripts.
+/qlora_results/
+/qlora_best_model/
+/onnx_model/
+/onnx_model_quantized/
+/temp_model/
+
+# Data
+# The training and evaluation data should not be committed to the repository.
+# Please provide a download link or instructions in the README.md for reproducibility.
+/data/
+
+# IDE / Editor-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
