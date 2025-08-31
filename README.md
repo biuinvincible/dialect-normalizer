@@ -13,7 +13,7 @@ This repository contains a complete MLOps pipeline for training, optimizing, and
 
 ## Prerequisites
 
-- Python 3.11+
+- Python 3.11.13
 - Docker Engine
 - **NVIDIA Container Toolkit**: Required to enable GPU support within Docker containers.
 - A CUDA-compatible NVIDIA GPU with up-to-date drivers.
@@ -27,7 +27,7 @@ This guide walks through every step, from preparing the data to interacting with
 Clone the repository and install the required Python dependencies.
 
 ```bash
-git clone https://github.com/Biu3010/vidialect.git
+git clone https://github.com/biuinvincible/dialect-normalizer.git
 cd vidialect
 pip install -r requirements.txt
 ```
