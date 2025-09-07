@@ -28,7 +28,7 @@ Clone the repository and install the required Python dependencies.
 
 ```bash
 git clone https://github.com/biuinvincible/dialect-normalizer.git
-cd vidialect
+cd dialect-normalizer
 pip install -r requirements.txt
 ```
 
